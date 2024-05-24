@@ -1,3 +1,5 @@
+/*Necessario funcao dpp_data_convert (https://github.com/ranraniere/postgre_functions/blob/main/dpp_data_convert.sql)*/
+
 CREATE OR REPLACE FUNCTION public.dpp_timestamp_convert(dateinput character varying)
  RETURNS timestamp without time zone
  LANGUAGE plpgsql
